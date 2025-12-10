@@ -1,0 +1,160 @@
+[
+  {
+    "nom": "Omelette aux tomates",
+    "description": "Une recette simple et rapide à base d'œufs et de tomates.",
+    "temps": "10 min",
+    "type": "plat",
+    "difficulte": "Facile",
+    "portions": "2",
+    "ingredients": ["2 œufs", "2 tomates", "sel", "poivre", "1 cuillère à soupe d'huile d'olive"],
+    "etapes": [
+      "Couper les tomates en petits dés",
+      "Battre les œufs dans un bol avec du sel et du poivre",
+      "Chauffer l'huile d'olive dans une poêle à feu moyen",
+      "Verser les œufs battus dans la poêle",
+      "Laisser cuire 1-2 minutes, puis ajouter les tomates",
+      "Plier l'omelette en deux et servir immédiatement"
+    ],
+    "image": "fa-egg"
+  },
+  {
+    "nom": "Salade de riz méditerranéenne",
+    "description": "Riz, tomates, concombre, olives et feta avec une vinaigrette légère.",
+    "temps": "20 min",
+    "type": "entrée",
+    "difficulte": "Facile",
+    "portions": "4",
+    "ingredients": ["250g riz", "3 tomates", "1 concombre", "150g olives", "200g feta", "3 cuillères d'huile d'olive", "1 citron"],
+    "etapes": [
+      "Cuire le riz selon les instructions du paquet, puis laisser refroidir",
+      "Couper les tomates, le concombre et la feta en petits dés",
+      "Mélanger le riz refroidi avec les légumes et les olives",
+      "Préparer la vinaigrette avec l'huile d'olive et le jus de citron",
+      "Verser la vinaigrette sur la salade et mélanger",
+      "Ajouter la feta et bien mélanger avant de servir"
+    ],
+    "image": "fa-bowl-rice"
+  },
+  {
+    "nom": "Pâtes à l'ail et au parmesan",
+    "description": "Pâtes sautées à l'huile d'olive, ail, persil et parmesan.",
+    "temps": "15 min",
+    "type": "plat",
+    "difficulte": "Facile",
+    "portions": "3",
+    "ingredients": ["400g pâtes", "5 gousses d'ail", "100ml huile d'olive", "100g parmesan", "persil frais", "sel", "poivre"],
+    "etapes": [
+      "Cuire les pâtes selon les instructions du paquet",
+      "Émincer finement l'ail",
+      "Faire chauffer l'huile d'olive dans une grande poêle",
+      "Faire revenir l'ail 1-2 minutes à feu doux jusqu'à ce qu'il soit doré",
+      "Égoutter les pâtes et les ajouter à la poêle",
+      "Mélanger bien, ajouter le parmesan râpé et le persil",
+      "Assaisonner avec du sel et du poivre, puis servir"
+    ],
+    "image": "fa-bowl-food"
+  },
+  {
+    "nom": "Crêpes sucrées",
+    "description": "Crêpes légères à garnir de sucre, confiture ou chocolat.",
+    "temps": "25 min",
+    "type": "dessert",
+    "difficulte": "Moyen",
+    "portions": "6",
+    "ingredients": ["250g farine", "500ml lait", "2 œufs", "2 cuillères de sucre", "50g beurre fondu", "pincée de sel"],
+    "etapes": [
+      "Mélanger la farine, les œufs, le sucre et le sel dans un bol",
+      "Ajouter progressivement le lait en mélangeant pour obtenir une pâte lisse",
+      "Ajouter le beurre fondu à la pâte",
+      "Laisser reposer 30 minutes à température ambiante",
+      "Chauffer une poêle antiadhésive à feu moyen-vif",
+      "Verser un peu de pâte et incliner la poêle pour l'étaler finement",
+      "Cuire 1-2 minutes de chaque côté jusqu'à ce que la crêpe soit dorée",
+      "Garnir selon vos préférences (sucre, confiture, chocolat, etc.)"
+    ],
+    "image": "fa-cookie"
+  },
+  {
+    "nom": "Bruschetta aux tomates",
+    "description": "Pain grillé frotté à l'ail, tomates, basilic et huile d'olive.",
+    "temps": "12 min",
+    "type": "entrée",
+    "difficulte": "Facile",
+    "portions": "4",
+    "ingredients": ["1 baguette", "3 tomates", "3 gousses d'ail", "50ml huile d'olive", "basilic frais", "sel", "poivre"],
+    "etapes": [
+      "Couper la baguette en tranches épaisses",
+      "Faire griller les tranches au four ou à la poêle jusqu'à ce qu'elles soient dorées",
+      "Frotter chaque tranche chaude avec une gousse d'ail",
+      "Couper les tomates en petits dés et les mettre dans un bol",
+      "Ajouter l'huile d'olive, le basilic haché, du sel et du poivre",
+      "Verser le mélange sur chaque tranche de pain grillée",
+      "Servir immédiatement"
+    ],
+    "image": "fa-bread-slice"
+  },
+  {
+    "nom": "Riz sauté aux œufs",
+    "description": "Riz de la veille sauté avec œufs, petits pois et sauce soja.",
+    "temps": "15 min",
+    "type": "plat",
+    "difficulte": "Facile",
+    "portions": "2",
+    "ingredients": ["300g riz cuit (de la veille)", "2 œufs", "150g petits pois", "3 cuillères de sauce soja", "1 oignon", "2 cuillères d'huile"],
+    "etapes": [
+      "Hacher finement l'oignon",
+      "Battre les œufs dans un bol",
+      "Chauffer l'huile dans un wok ou une grande poêle à feu vif",
+      "Faire revenir l'oignon 2-3 minutes",
+      "Ajouter le riz cuit et le casser légèrement avec une spatule",
+      "Ajouter les petits pois et la sauce soja",
+      "Pousser le riz sur les côtés et verser les œufs battus au centre",
+      "Mélanger rapidement tout ensemble et laisser cuire 2-3 minutes"
+    ],
+    "image": "fa-kitchen-set"
+  },
+  {
+    "nom": "Soupe à l'oignon gratinée",
+    "description": "Classique français avec oignons caramélisés, pain grillé et fromage fondu.",
+    "temps": "45 min",
+    "type": "plat",
+    "difficulte": "Moyen",
+    "portions": "4",
+    "ingredients": ["1kg oignons", "1L bouillon", "200ml vin blanc", "1 baguette", "200g fromage gruyère", "50g beurre", "sel", "poivre"],
+    "etapes": [
+      "Couper les oignons en fines tranches",
+      "Faire fondre le beurre dans une grande casserole à feu moyen",
+      "Ajouter les oignons et laisser caraméliser pendant 20-25 minutes en remuant régulièrement",
+      "Déglacer avec le vin blanc et laisser réduire de moitié",
+      "Verser le bouillon et laisser mijoter 15 minutes",
+      "Assaisonner avec du sel et du poivre",
+      "Verser la soupe dans des bols individuels",
+      "Garnir avec une tranche de pain grillée et du fromage râpé",
+      "Gratiner au four à 180°C pendant 10 minutes jusqu'à ce que le fromage soit doré"
+    ],
+    "image": "fa-mug-hot"
+  },
+  {
+    "nom": "Tarte aux fruits rouges",
+    "description": "Pâte brisée garnie de crème pâtissière et fruits frais.",
+    "temps": "60 min",
+    "type": "dessert",
+    "difficulte": "Moyen",
+    "portions": "8",
+    "ingredients": ["250g farine", "125g beurre", "1 œuf", "100g sucre", "250ml lait", "2 jaunes d'œuf", "300g fruits rouges", "vanille"],
+    "etapes": [
+      "Préparer la pâte brisée : mélanger farine, beurre froid découpé en cubes, 1 œuf et du sel",
+      "Laisser reposer au frigo 30 minutes",
+      "Étaler la pâte dans un moule à tarte et laisser reposer 15 minutes",
+      "Cuire à blanc au four 180°C pendant 15 minutes",
+      "Préparer la crème pâtissière : faire bouillir le lait avec la vanille",
+      "Blanchir les jaunes d'œuf avec le sucre, ajouter la farine progressivement",
+      "Verser le lait chaud sur le mélange en remuant constamment",
+      "Laisser épaissir à feu doux 2-3 minutes",
+      "Verser la crème dans le fond de tarte",
+      "Décorer avec les fruits rouges frais",
+      "Servir frais"
+    ],
+    "image": "fa-apple"
+  }
+]

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recettes Découvertes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="app-header">
+        <h1>Recettes selon vos ingrédients</h1>
+        <p>Sélectionnez des ingrédients et découvrez quoi cuisiner.</p>
+    </header>
+
+    <section class="filters" aria-label="Filtres de recherche de recettes">
+        <div class="filter-group">
+            <label for="ingredientsSelect">Ingrédients disponibles</label>
+            <select id="ingredientsSelect" multiple aria-label="Sélection multiple d'ingrédients"></select>
+            <small>Astuce: maintenez Ctrl (Windows) pour sélectionner plusieurs éléments.</small>
+        </div>
+
+        <div class="filter-group">
+            <label for="typeSelect">Type de plat</label>
+            <select id="typeSelect" aria-label="Filtrer par type de plat">
+                <option value="">Tous</option>
+                <option value="entrée">Entrée</option>
+                <option value="plat">Plat</option>
+                <option value="dessert">Dessert</option>
+            </select>
+        </div>
+
+        <div class="actions">
+            <button id="clearBtn" class="btn"><i class="fa-regular fa-circle-xmark"></i> Effacer</button>
+            <button id="surpriseBtn" class="btn surprise"><i class="fa-solid fa-wand-magic-sparkles"></i> Recette surprise</button>
+        </div>
+    </section>
+
+    <main>
+        <div id="resultsInfo" class="results-info" aria-live="polite"></div>
+        <section id="recipesGrid" class="recipes-grid" aria-label="Résultats des recettes"></section>
+    </main>
+
+    <template id="recipeCardTemplate">
+        <article class="recipe-card" tabindex="0">
+            <div class="recipe-media">
+                <i class="recipe-icon fa-solid fa-utensils" aria-hidden="true"></i>
+            </div>
+            <div class="recipe-body">
+                <h3 class="recipe-title"></h3>
+                <p class="recipe-desc"></p>
+                <div class="recipe-meta">
+                    <span class="time"><i class="fa-regular fa-clock"></i> <span class="time-text"></span></span>
+                    <span class="difficulty-badge"></span>
+                </div>
+                <div class="recipe-footer">
+                    <span class="portions"><i class="fa-solid fa-user-group"></i> <span class="portions-text"></span></span>
+                    <span class="type-pill"></span>
+                </div>
+            </div>
+        </article>
+    </template>
+
+    <!-- Modal pour afficher les détails de la recette -->
+    <div id="recipeModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal"><i class="fa-solid fa-xmark"></i></button>
+            
+            <div class="modal-header">
+                <h2 id="modalTitle" class="modal-title"></h2>
+                <div class="modal-meta">
+                    <span class="modal-time"><i class="fa-regular fa-clock"></i> <span id="modalTime"></span></span>
+                    <span class="modal-difficulty" id="modalDifficulty"></span>
+                    <span class="modal-portions"><i class="fa-solid fa-user-group"></i> <span id="modalPortions"></span></span>
+                </div>
+            </div>
+
+            <div class="modal-body">
+                <div class="ingredients-section">
+                    <h3><i class="fa-solid fa-list"></i> Ingrédients</h3>
+                    <ul id="ingredientsList" class="ingredients-list"></ul>
+                </div>
+
+                <div class="steps-section">
+                    <h3><i class="fa-solid fa-utensils"></i> Marche à suivre</h3>
+                    <ol id="stepsList" class="steps-list"></ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
